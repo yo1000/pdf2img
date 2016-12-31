@@ -57,9 +57,8 @@ pdf2img [-b64 | -o <outputDirectory> [-f <format>]] <inputFiles>
 
             return
         } else {
-            convertPdfService.convertToBinaries(
-                    cl.hasOption("b64"),
-                    *cl.args).forEach(::println)
+            println(convertPdfService.convertToBinaries(cl.hasOption("b64"), *cl.args)
+                    .joinToString(" "))
         }
     }
 }

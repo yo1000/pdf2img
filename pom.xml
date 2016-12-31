@@ -5,7 +5,7 @@
 
 	<groupId>com.yo1000</groupId>
 	<artifactId>pdf2img</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>pdf2img</name>
