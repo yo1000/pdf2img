@@ -22,7 +22,7 @@ Convert files.
 $ ls /dir/path
 A.pdf   B.pdf
 
-$ java -jar pdf2img.jar -o /dir/path /dir/path/d1/A.pdf /dir/path/d1/B.pdf
+$ java -jar pdf2img.jar -o /dir/path /dir/path/A.pdf /dir/path/B.pdf
 
 $ ls /dir/path
 A.pdf   A.png   B.pdf   B.png
@@ -36,7 +36,7 @@ Compare files.
 $ ls /dir/path
 A.pdf   B.pdf
 
-$ ./mvnw clean spring-boot:run -U -Drun.arguments=-o,/dir/path,/dir/path/d1/A.pdf,/dir/path/d1/B.pdf
+$ ./mvnw clean spring-boot:run -U -Drun.arguments=-o,/dir/path,/dir/path/A.pdf,/dir/path/B.pdf
 
 $ ls /dir/path
 A.pdf   A.png   B.pdf   B.png
